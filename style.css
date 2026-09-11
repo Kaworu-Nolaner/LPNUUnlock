@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #18290b;
+}
+
+input{
+    background-color: transparent;
+    border: 0;
+    font-size: 4vw;
+}
+input::placeholder{
+    color: rgba(159, 2, 2, 0.672);
+    font-weight: 1000;
+    opacity: 1;
+}
+body{
+    background-color: #f3f5f4;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+header > h1{
+    align-self: center;
+    margin-left: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 7vw;
+    margin-bottom: -10vw;
+}
+main{
+    height: 78vh;
+}
+.card{
+    height: 130vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    border-radius: 3vw;
+    background-color: #edf6d2;
+    box-shadow: 0 2vw 5vw rgba(0, 0, 0, 0.15);
+}
+.cardzalupa{
+    background-image: url(2.jpg);
+    background-size: 55vw;
+    background-position-x: 28vw;
+    background-position-y: 6vw;
+    background-repeat: no-repeat;
+}
+.huynya{
+    padding-top: 5vw;
+    padding-left: 4vw;
+}
+.huynya > h1{
+    font-size: 7vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.gurt{
+    height: 13vw;
+    margin-top: 3vw;
+    margin-left: 4vw;
+    font-size: 4vw;
+    color: #3c4d19;
+}
+.da, .komnata{
+    height: 13vw;
+    margin-left: 4vw;
+    font-size: 4vw;
+    color: #3c4d19;
+}
+.cardstvol{
+    background-color: #c7e273;
+    height: 0.5vw;
+    width: 82vw;
+    margin-left: 4vw;
+}
+.cardyayca{
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+.huyLP{
+    font-size: 4.5vw;
+    color: #3e4c1a;
+}
+.yayebaltvoyumamu > input{
+    font-size: 7vw;
+    font-weight: 400;
+}
+footer{
+    height: 14vw;
+    width: 90vw;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: 7vw;
+    margin-left: 5vw;
+    border-radius: 7vw;
+    position: fixed;
+    bottom: 0;
+    background-image: url(1.png);
+    background-size: cover;
+    box-shadow: 0 2vw 5vw rgba(0, 0, 0, 0.15);
+}
+.benzopila {
+    background-color: #6f911f;
+    height: 7vw;
+    margin-left: -4vw;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vw;
+    overflow: hidden; 
+    width: 90vw;      
+}
+
+.benzopila > p {
+    white-space: nowrap;
+    color: #fbfdee;
+    padding-top: 1vw;
+    font-size: 3.5vw;
+    font-weight: 500;
+    margin: 0; 
+    flex-shrink: 0;
+    animation: marquee 18s linear infinite; 
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
