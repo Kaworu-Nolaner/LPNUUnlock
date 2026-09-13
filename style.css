@@ -3,6 +3,7 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #18290b;
+    letter-spacing: 0.04em;
 }
 
 input{
@@ -53,6 +54,13 @@ main{
     background-position-x: 28vw;
     background-position-y: 6vw;
     background-repeat: no-repeat;
+}
+.cardzalupa input{
+    width: 100%;
+    font-weight: 500;
+}
+.cardzalupa p{
+    font-weight: 500;
 }
 .huynya{
     padding-top: 5vw;
